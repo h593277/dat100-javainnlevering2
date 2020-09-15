@@ -7,7 +7,7 @@ public class Tabeller {
 		
 		for(int i : tabell)
 		{
-			System.out.println();
+			System.out.println(i);
 		}
 		//throw new UnsupportedOperationException("skrivUt ikke implementert");
 
