@@ -98,6 +98,7 @@ public class Tabeller {
 			{
 				tallet = j;
 			}
+			j++;
 		}
 		
 		return tallet;
