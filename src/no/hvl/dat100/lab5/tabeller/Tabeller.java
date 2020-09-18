@@ -109,10 +109,12 @@ public class Tabeller {
 	public static int[] reverser(int[] tabell) {
 
 		int[] reverseTabell = new int[tabell.length];
+		int j = 0;
 		
 		for(int i = tabell.length-1; i >= 0; i--)
 		{
-			reverseTabell[i] = tabell[i];
+			reverseTabell[i] = tabell[j];
+			j++;
 		}
 		return reverseTabell;
 		
